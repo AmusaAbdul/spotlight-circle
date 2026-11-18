@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-bg: #F3F5EF;
+  --color-bg-dark: #08170f;
+
+  --color-surface: #ffffff;
+  --color-surface-dark: #0f2a1b;
+
+  --color-text: #10281a;
+  --color-text-dark: #f3efdc;
+
+  --color-muted-text: #4c6354;
+  --color-muted-text-dark: #a9bba9;
+
+  --color-headings: #0e5a2f;
+  --color-headings-dark: #3fae6a;
+
+  --color-gold: #c8961a;
+  --color-deepGold: #f0d98c;
+  --color-gold-dark: #e3b23c;
+
+  --color-border: #d5ddcf;
+  --color-border-dark: #1d3d2a;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+
+  --shadow-soft: 0 1px 2px rgba(24, 32, 25, 0.04), 0 8px 24px rgba(24, 32, 25, 0.06);
+}
+
+body {
+  margin: 0;
+  font-family: Space Grotesk;
+  @apply bg-bg text-surface;
+    font-family: 'DM Sans', Consolas, 'Courier New', monospace;
+
+
+}
+
+.dark body {
+  @apply bg-bg-dark text-surface-dark;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.container {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+@utility notebook {
+  background-image: repeating-linear-gradient(to bottom,
+      transparent 0px,
+      transparent 39px,
+      #bdc8b9 40px);
+
+  @variant dark {
+    background-image: repeating-linear-gradient(to bottom,
+        transparent 0px,
+        transparent 39px,
+        #2c362d 40px);
+  }
+}
+
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
+
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  grid-template-areas:
+    "a b b c"
+    "a d e c"
+    "f f f f";
+}
+
+.tile {
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 12px;
+}
+
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+
+
+@media (max-width: 480px) {
+  .cardExpext {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "a b"
+      "a d"
+      "c e"
+      "c f";
+  }
+}
+
+@media (max-width: 799px) {
+  .card {
+    width: 100%;
+  }
+  .MobileView {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 800px) {
+  .DesktopView {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
