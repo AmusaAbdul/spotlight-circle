@@ -15,8 +15,12 @@ const Hero = () => {
                         <div className="border border-border-dark dark:border-deepGold p-2 rounded-full">For Corps Members</div>
                     </div>
                     <div className="flex gap-4 text-text-dark pt-5 w-full">
-                        <button className="bg-border-dark dark:bg-gold dark:text-bg-dark text-text-dark p-2 rounded-full duration-300 ease-in-out hover:scale-105 transition hover:border-border-dark hover:bg-bg hover:text-border-dark border dark:hover:border-gold">Get your tickets</button>
-                        <button className="border border-border-dark dark:border-gold text-border-dark dark:text-text-dark p-2 rounded-full duration-300 ease-in-out hover:scale-105 transition hover:bg-border-dark hover:text-text-dark">See what to expect</button>
+                        <button className="bg-border-dark dark:bg-gold dark:text-bg-dark text-text-dark p-2 rounded-full duration-300 ease-in-out hover:scale-105 transition hover:border-border-dark hover:bg-bg hover:text-border-dark border dark:hover:border-gold">
+                            <a href="#ticket">Get your tickets</a>
+                        </button>
+                        <button className="border border-border-dark dark:border-gold text-border-dark dark:text-text-dark p-2 rounded-full duration-300 ease-in-out hover:scale-105 transition hover:bg-border-dark hover:text-text-dark">
+                            <a href="#purpose">See what to expect</a>
+                        </button>
                     </div>
                 </div>
                 <div className="p-2 bg-border-dark dark:bg-gold rounded-full card duration-300 ease-in-out hover:scale-105 transition">
