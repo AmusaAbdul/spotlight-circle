@@ -6,6 +6,7 @@ import Expectation from "./components/Expectation"
 import Gallery from "./components/Gallery"
 import Ticket from "./components/Ticket"
 import Footer from "./components/Footer"
+import Spornsorship from './components/Spornsorship';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <div id="ticket">
         <Ticket />
       </div>
+      <Spornsorship />
       <hr className="border-t-6 border-border-dark mt-15 dark:border-gold-dark" />
       <Footer />
     </div>

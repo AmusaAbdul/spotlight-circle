@@ -17,32 +17,32 @@ const Gallery = () => {
                 <p className="text-headings-dark font-bold text-6xl">Picture yourself there.</p>
 
                 <div className="grid mt-5">
-                    <div className="tile a bg-[#b3294e] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile a bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery1} alt="corps member at olumo rock" />
                     </div>
-                    <div className="tile b bg-[#6a1b5a] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile b bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery2} alt="corps member at olumo rock" />
                     </div>
-                    <div className="tile c bg-[#e58ab0] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile c bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery3} alt="corps member at olumo rock" />
                     </div>
-                    <div className="tile d bg-[#e2674a] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile d bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery4} alt="corps member at olumo rock" />
                     </div>
-                    <div className="tile e bg-[#7d1030] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile e bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery5} alt="corps member at olumo rock" />
                     </div>
-                    <div className="tile f bg-[#c4a6b3] duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="tile f bg-headings-dark duration-300 ease-in-out hover:scale-105 transition">
                         <img className="w-full h-full object-cover" src={Gallery6} alt="corps member at olumo rock" />
                     </div>
                 </div>
 
                 <div className="flex flex-col mobileView DesktopView gap-5 mt-10">
-                    <div className="bg-border-dark card w-150 h-90 lg:h-150 p-2  dark:bg-border duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="bg-headings-dark card w-150 h-90 lg:h-150 p-2 duration-300 ease-in-out hover:scale-105 transition">
                         <video className="w-full h-full dark:bg-border  object-cover card" src={myVideo1}  controls />
                     </div>
 
-                    <div className="bg-border-dark card w-150 h-90 lg:h-150 p-2 dark:bg-border duration-300 ease-in-out hover:scale-105 transition">
+                    <div className="bg-headings-dark card w-150 h-90 lg:h-150 p-2 duration-300 ease-in-out hover:scale-105 transition">
                         <video className="w-full h-full object-cover card" src={myVideo2}  controls />
                     </div>
                 </div>

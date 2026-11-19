@@ -25,8 +25,8 @@ const Hero = () => {
                 </div>
                 <div className="p-2 bg-border-dark dark:bg-gold rounded-full card duration-300 ease-in-out hover:scale-105 transition">
                     <div className="dark:bg-border-dark bg-gold p-2 rounded-full card">
-                        <div className="dark:bg-gold bg-border-dark card rounded-full p-2">
-                            <img className="h-100 w-100 lg:h-150 lg:w-150 rounded-full object-cover" src={HeroImage} alt="executives at olumo rock" />
+                        <div className="dark:bg-gold bg-border-dark  rounded-full p-2 card">
+                            <img className="h-100 w-100 lg:h-150 lg:w-150 card rounded-full object-cover" src={HeroImage} alt="executives at olumo rock" />
                         </div>
                     </div>
                 </div>

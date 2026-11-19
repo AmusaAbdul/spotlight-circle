@@ -103,7 +103,7 @@ button {
   border-radius: 16px;
   display: flex;
   align-items: flex-end;
-  padding: 12px;
+  padding: 10px;
 }
 
 .a { grid-area: a; }

@@ -3,7 +3,7 @@ import {useState, useEffect} from "react"
 const Countdown = () => {
     const getTimeLeft = () => {
         const now = new Date();
-        const due = new Date(2026, 11, 13);
+        const due = new Date(2027, 1, 9);
         const diff = Math.max(0, due - now);
 
         const totalSeconds = Math.floor(diff / 1000);

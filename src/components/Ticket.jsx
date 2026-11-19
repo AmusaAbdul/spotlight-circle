@@ -19,7 +19,6 @@ const Ticket = () => {
         window.open(whatsappLink(msg), "_blank", "noopener");
     }
 
-    console.log(ticket)
 
     return (
         <div className="notebook">
