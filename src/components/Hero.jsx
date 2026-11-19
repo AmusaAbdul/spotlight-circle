@@ -7,10 +7,10 @@ const Hero = () => {
                 <div className="font-bold space-y-2">
                     <h1 className="text-border-dark dark:text-deepGold tracking-wider">SPOTLIGHT CIRCLE PRESENT</h1>
                     <h1 className="text-text dark:text-text-dark text-6xl lg:text-9xl">CORPER'S ESCAPE</h1>
-                    <h1 className="text-border-dark dark:text-gold-dark text-3xl tracking-wider lg:scale-y-170">OLUOMO EXPERIENCE '26</h1>
+                    <h1 className="text-border-dark dark:text-gold-dark text-3xl tracking-wider lg:scale-y-170">OLUOMO EXPERIENCE '27</h1>
                     <h1 className="text-text dark:text-text-dark text-2xl">EXPLORE. CONNECT. PLAY. CREATE MEMORIES.</h1>
                     <div className="flex gap-4 text-text dark:text-text-dark pt-5 w-full flex-wrap">
-                        <div className="border border-border-dark dark:border-deepGold p-2 rounded-full">Saturday December 12, 2026</div>
+                        <div className="border border-border-dark dark:border-deepGold p-2 rounded-full">Saturday January 9, 2027</div>
                         <div className="border border-border-dark dark:border-deepGold p-2 rounded-full">Olumo Rock, Abeokuta, Ogun State</div>
                         <div className="border border-border-dark dark:border-deepGold p-2 rounded-full">For Corps Members</div>
                     </div>
