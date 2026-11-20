@@ -65,7 +65,6 @@ const Gallery = () => {
                         </div>
                         <button onClick={() => openLink("https://wa.me/23408129725633")} className="p-2 h-fit duration-300 ease-in-out hover:scale-105 transition tracking-widest bg-border-dark text-white dark:bg-gold rounded-full dark:text-bg-dark hover:text-bg">Get one</button>
                     </div>
-                    <p className="text-headings dark:text-gold-dark font-semibold tracking-wider font-mono">Scroll to see more</p>
                 </div>
 
                 {/* <div className="flex flex-col mobileView DesktopView gap-5 mt-10">
