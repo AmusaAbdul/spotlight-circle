@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="container p-5 pt-25 MobileView items-center  flex flex-col gap-10 DesktopView">
                 <div className="font-bold space-y-2">
                     <h1 className="text-border-dark dark:text-deepGold tracking-wider">SPOTLIGHT CIRCLE PRESENT</h1>
-                    <h1 className="text-text dark:text-text-dark text-6xl lg:text-9xl">CORPER'S ESCAPE</h1>
+                    <h1 className="text-text dark:text-text-dark text-6xl lg:text-9xl">CORPERS' ESCAPE</h1>
                     <h1 className="text-border-dark dark:text-gold-dark text-3xl tracking-wider lg:scale-y-170">OLUOMO EXPERIENCE '27</h1>
                     <h1 className="text-text dark:text-text-dark text-2xl">EXPLORE. CONNECT. PLAY. CREATE MEMORIES.</h1>
                     <div className="flex gap-4 text-text dark:text-text-dark pt-5 w-full flex-wrap">
