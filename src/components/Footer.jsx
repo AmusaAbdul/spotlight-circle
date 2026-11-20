@@ -13,7 +13,8 @@ const Footer = () => {
                     <a href="#ticket">Get your ticket</a>
                 </button>
                 <p className="text-border-dark dark:text-bg">Spotlight Circle presents Corpers’ Escape: Olumo Experience ’27</p>
-                <p className="text-border-dark dark:text-bg">Developed by <button onClick={() => openLink("https://wa.me/23408156345656")} className="p-2 duration-300 ease-in-out hover:scale-105 transition tracking-widest bg-gold rounded-full text-border-dark hover:text-bg">ABDULLAH</button>
+                <p className="text-border-dark dark:text-bg mt-10">
+                    Developed by <button onClick={() => openLink("https://wa.me/23408156345656")} className="p-2 duration-300 ease-in-out hover:scale-105 transition tracking-widest rounded-full bg-[#e5e4e2] text-[#56534e] border border-[#c7c5c1]">ABDULLAH</button>
                 </p>
             </div>
         </div>
